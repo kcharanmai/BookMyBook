@@ -1,4 +1,4 @@
-﻿# BookXchanager
+﻿# BookMyBook
 Preview of the Site
 ![Screenshot 2024-08-02 233555](https://github.com/user-attachments/assets/724a1eca-3069-41e0-836e-0c9e2751982a)
 ![Screenshot 2024-08-02 233624](https://github.com/user-attachments/assets/11c7749f-ab16-4b6e-830e-edf3205d022a)
@@ -14,6 +14,60 @@ Preview of the Site
 ![image](https://github.com/user-attachments/assets/d6d05c57-e7ba-4c6a-a8ff-093e442b55e1)
 ![image](https://github.com/user-attachments/assets/92714f66-c5af-4d53-95aa-c7e03f24b6f9)
 
+---
 
+# BookMyBook
+
+**BookMyBook** is a web application created using the MERN stack (MongoDB, Express, React, Node.js) and styled with TailwindCSS. The platform allows users to log in, buy, and sell books. Used MongoDB atlas, Postman to create the database, send requests and connect them. Users Authentication is done with the the help of Firebase. Logged in users can upload a book to sell them and edit them too if needed. Future extensions will include adding a payment gateway for seamless transactions.
+
+## Features
+
+- **User Authentication**: Secure login and registration system.
+- **Buy Books**: Browse and purchase books from various categories.
+- **Sell Books**: List your books for sale.
+- **Responsive Design**: Optimized for both desktop and mobile devices using TailwindCSS.
+
+## Tech Stack
+
+- **Frontend**: React, TailwindCSS
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/kcharanmai/BookMyBook.git
+   cd BookMyBook
+   ```
+
+2. **Install dependencies for the server**:
+   ```bash
+   server folder: index.js, package.json
+   npm install
+   ```
+
+3. **Install dependencies for the client**:
+   ```bash
+   cd ../client
+   npm install
+   ```
+
+## Usage
+
+1. **Run the server**:
+   ```bash
+   cd server
+   npm start
+   ```
+
+2. **Run the client**:
+   ```bash
+   cd ../client
+   npm run dev
+   ```
+
+3. **Open your browser** and navigate to `http://localhost:5173` to access the application.
+4. **Open your browser** and navigate to `http://localhost:5000` to get the data.
 
 
